@@ -7,6 +7,7 @@ user_num = ARGV[0].to_i
 pair_sum = 0
 i = 0
 
+#lógica
 until i > user_num
     if i % 2 == 0
         pair_sum += i
@@ -16,5 +17,6 @@ until i > user_num
     end
 end
 
+#output
 puts "La suma de números pares entre 0 y #{user_num} es #{pair_sum}"
 
